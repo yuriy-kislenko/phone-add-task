@@ -1,0 +1,147 @@
+.phone__add {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper {
+    background: #aedbff;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.wrapBtn {
+    background: #e4d80e;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.wrapBtn,
+.itemList,
+.itemView {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #e4d80e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.itemList {
+    background: #aedbff;
+    padding: 20px;
+    margin-right: 20px;
+    width: 260px;
+    padding-bottom: 10px;
+}
+
+.item__list, .item__view {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item__list li h3 {
+    margin: 0;
+}
+
+.item__list li {
+    background: #e4d80e;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.item__list a {
+    padding: 1px 10px;
+    border-radius: 15px;
+    background: #aedbff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.itemView {
+    background: #aedbff;
+    padding: 20px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.item__view li {
+    width: 100%;
+}
+
+.item-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-block img {
+    flex-basis: 50%;
+    width: 100px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.item-block div {
+    flex-basis: 50%;
+    background: #e4d80e;
+}
+
+.item-block div h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.item-block div h3:before {
+    content: 'diller: ';
+    font-size: 12px;
+    margin-left: -20px;
+}
+
+.item-block div p:nth-child(2):before {
+    content: 'model: ';
+    font-size: 12px;
+}
+
+.item-block div p:nth-child(3):before {
+    content: 'battery: ';
+    font-size: 12px;
+}
+
+.desc__text {
+    flex-basis: 100%;
+    text-align: justify;
+    background: #e4d80e;
+    min-height: 80px;
+    padding: 20px;
+    position: relative;
+}
+
+.desc__text::before {
+    content: 'description: ';
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
